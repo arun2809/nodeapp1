@@ -1,0 +1,177 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+    </div>
+    <div class="col">
+        <h3>Project Management</h3>
+    </div>
+    <div class="col">
+
+    </div>
+
+  </div>
+
+</div>
+<br>
+<br>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-sm-12 col-md-12">
+
+    </div>
+    <div class="col-lg-4 col-sm-12 col-md-12">
+        
+      </div>
+      <div class="col-lg-4 col-sm-12 col-md-12">
+
+        </div>
+  </div>
+  <div class="row">
+      <div class="col-lg-4 col-sm-12 col-md-12">
+         <input type="search" name="search"><button class="btn btn-primary">Search</button>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-md-12">
+          <button class="btn btn-primary" (click)="taskcreatepage()">Create</button>
+            
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
+<button class="btn btn-primary" (click)="logout()">Logout</button>
+          </div>
+    </div>
+</div>
+<br>
+<br>
+
+<!-- <div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12 col-12">
+  <table class="table">
+<tr>
+  <th scope="row"><input type="search" name="search">
+    <button class="btn btn-primary">Search</button></th>
+  <td></td>
+  <td><button class="btn btn-primary">Create</button></td>
+</tr>
+  </table>
+    <table class="table">
+        <thead class="black white-text">
+          <tr>
+            
+            <th scope="col">Status</th>
+            <th scope="col">Title</th>
+            <th scope="col">Reporter</th>
+            <th scope="col">Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><div *ngFor = "let x of dashboarddata">
+                <td>{{x.Title}}</td>
+                
+            </div></td>
+            <td></td>
+           
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+</div> -->
+<!-- </div> -->
+
+
+<!-- <div class="container">
+<div class="row">
+<table>
+  <tbody>
+    <th><h3 style="color:aquamarine">Status </h3> <div *ngFor = "let x of dashboarddata">
+        <td>{{x.Status}}</td>
+    </div>
+  </th>
+   <th>
+      <h3 style="color:aquamarine">Title </h3>  <div *ngFor= "let x of dashboarddata">
+       <td>{{x.Title}}</td>
+     </div>
+   </th>
+   <th><h3 style="color:aquamarine">Reporter </h3>   <div *ngFor = "let x of dashboarddata">
+      <td>{{x.Reporter}}</td>
+  </div>
+</th>
+ <th>
+    <h3 style="color:aquamarine">Date </h3>  <div *ngFor= "let x of dashboarddata">
+     <td>{{x.Date}}</td>
+   </div>
+ </th>
+  </tbody>
+</table>
+</div>
+</div> -->
+
+<!-- <div class="container">
+<div class="row">
+  <div class="col-sm-3 col-md-3 col-lg-3">
+      <th><h3 style="color:aquamarine">Title </h3></th> <div *ngFor = "let x of dashboarddata">
+          <td>{{x.Title}}</td>
+  </div>
+  <div class="col-sm-3 col-md-3 col-lg-3">
+      <th><h3 style="color:aquamarine">Status </h3></th> <div *ngFor = "let x of dashboarddata">
+          <td>{{x.Status}}</td>
+  </div>
+  <div class="col-sm-3 col-md-3 col-lg-3">
+      <th><h3 style="color:aquamarine">Reporter </h3></th> <div *ngFor = "let x of dashboarddata">
+          <td>{{x.Reporter}}</td>
+  </div>
+  <div class="col-sm-3 col-md-3 col-lg-3">
+      <th><h3 style="color:aquamarine">Date </h3> </th><div *ngFor = "let x of dashboarddata">
+          <td>{{x.Date}}</td>
+  </div>
+
+</div>
+</div> -->
+
+
+
+  <div class="container">
+<div class="row">
+<div class="col-sm-3 col-lg-3 col-md-3">
+    <th>Title </th><div *ngFor = "let x of dashboarddata">
+        <td>{{x.Title}}</td><td></td>
+</div>
+</div>
+<div class="col-sm-3 col-lg-3 col-md-3">
+    <th>Status  </th><div *ngFor = "let x of dashboarddata">
+        <td>{{x.Status}}</td>
+</div>
+</div>
+<div class="col-sm-3 col-lg-3 col-md-3">
+    <th>Reporter </th><div *ngFor = "let x of dashboarddata">
+        <td>{{x.Reporter}}</td>
+</div>
+</div>
+<div class="col-sm-3 col-lg-3 col-md-3">
+    <th>Date  </th><div *ngFor = "let x of dashboarddata">
+        <td>{{x.Date}}</td><td><button (click)="update()">Edit</button></td>
+</div>
+</div>
+</div>
+  </div>
+
+
+
+ 
